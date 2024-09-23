@@ -1,0 +1,42 @@
+.main_navbar{
+    width: 1519.2px;
+    height: 56px;
+    background-color: #ffff;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    justify-content: space-between;
+}
+.navbar_left_bar{
+    display: flex;
+    position: relative;
+    width: 320px;
+    height: 56px;   
+}
+.navbar_logo{
+    width: 40px;
+    position: absolute;
+    margin-left:12px;
+    top: 8px;
+}
+.navbar_search{
+    position: absolute;
+    width: 240px;
+    height: 40px;
+    margin-top: 8px;
+    margin-left: 64px;
+    margin-right: 12px;
+    border-radius: 25px;
+    background-color: #eff2f5;
+    border: #f0f2f5;
+    font-size: 16px;
+}
+.navbar_left_bar input::placeholder{
+    position: absolute;
+    padding-left: 30px;
+}
+.navbar_container{
+    display: flex;
+}
+.navbar_tab.active{
+    width: 120px;
+    justify-content: space-between;
+}
